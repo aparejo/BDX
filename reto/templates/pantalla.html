@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{% static 'css/global.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
+    />
+  </head>
+  <body>
+    <div class="tv-1">
+      <img
+        class="oscuro-marron-1-icon"
+        alt=""
+        src="{% static 'images/oscuro-marron-1@2x.png' %}"
+      />
+
+      <img class="logo-reto-1-icon" alt="" src="{% static 'images/logoreto-1@2x.png' %}" />
+      {% block content %}
+      <div class="barquisimeto">{{ sucursal.nombre }}</div>
+      {% for categoria in categorias %}
+      {% if categoria.nombre == "Fútbol Masculino" %}
+      {% for persona in categoria.personas %}
+      <div class="maria-prez">{{ persona.nombre }}{{ persona.apellido }}</div>
+      <div class="cat-8-container">
+        <span>{{ persona.subcategoria }} - </span>
+        <span class="puntos">{{ persona.puntos }} puntos</span>
+      </div>
+      
+      {% endfor %}
+      {% endif %}
+      {% endfor %}
+      <div class="mario-prez">Maria Pérez{{ participante.nombre }} {{ participante.apellido }}</div>
+      <div class="cat-8-container3">
+        <span>CAT 8{{ participante.subdominio }}- </span>
+        <span class="puntos">2 puntos{{ participante.puntaje }}</span>
+      </div>
+      <div class="mario-prez1">Maria Pérez</div>
+      <div class="cat-10-container1">
+        <span>CAT 10 - </span>
+        <span class="puntos">8 puntos</span>
+      </div>
+      <div class="mario-prez2">Maria Pérez</div>
+      <div class="cat-14-container1">
+        <span>CAT 14 - </span>
+        <span class="puntos">8 puntos</span>
+      </div>
+      <div class="mario-prez3">Maria Pérez</div>
+      <div class="cat-17-container">
+        <span>CAT 17 - </span>
+        <span class="puntos">6 puntos</span>
+      </div>
+      <div class="mario-prez4">Maria Pérez</div>
+      <div class="cat-21-container">
+        <span>CAT 21 - </span>
+        <span class="puntos">2 puntos</span>
+      </div>
+      <div class="maria-prez5">Maria Pérez</div>
+      <div class="cat-8-container4">
+        <span>CAT 8 - </span>
+        <span class="puntos">10 puntos</span>
+      </div>
+      <div class="maria-prez6">Maria Pérez</div>
+      <div class="cat-10-container2">
+        <span>CAT 10 - </span>
+        <span class="puntos">8 puntos</span>
+      </div>
+      <div class="maria-prez7">Maria Pérez</div>
+      <div class="cat-14-container2">
+        <span>CAT 14 - </span>
+        <span class="puntos">8 puntos</span>
+      </div>
+      <div class="maria-prez8">Maria Pérez</div>
+      <div class="cat-8-container5">
+        <span>CAT 8 - </span>
+        <span class="puntos">6 puntos</span>
+      </div>
+      <div class="maria-prez9">Maria Pérez</div>
+      <div class="cat-8-container6">
+        <span>CAT 8 - </span>
+        <span class="puntos">2 puntos</span>
+      </div>
+      <div class="maria-prez10">Maria Pérez</div>
+      <div class="cat-8-container7">
+        <span>CAT 8 - </span>
+        <span class="puntos">10 puntos</span>
+      </div>
+      <div class="maria-prez11">Maria Pérez</div>
+      <div class="cat-10-container3">
+        <span>CAT 10 - </span>
+        <span class="puntos">8 puntos</span>
+      </div>
+      <div class="maria-prez12">Maria Pérez</div>
+      <div class="cat-14-container3">
+        <span>CAT 14 - </span>
+        <span class="puntos">8 puntos</span>
+      </div>
+      <div class="maria-prez13">Maria Pérez</div>
+      <div class="cat-8-container8">
+        <span>CAT 8 - </span>
+        <span class="puntos">6 puntos</span>
+      </div>
+      <div class="maria-prez14">Maria Pérez</div>
+      <div class="cat-8-container9">
+        <span>CAT 8 - </span>
+        <span class="puntos">2 puntos</span>
+      </div>
+      <div class="bsquetbol">Básquetbol</div>
+      <div class="femenino">Femenino</div>
+      <div class="bsquetbol1">Básquetbol</div>
+      <div class="masculino">Masculino</div>
+      <div class="ftbol">Fútbol</div>
+      <div class="masculino1">Masculino</div>
+      <div class="ftbol1">Fútbol</div>
+      <div class="femenino1">Femenino</div>
+      <div class="semana-1-container">
+        <p class="semana-1-mes-1">
+          <span class="semana">Semana </span>
+          <span class="span">1 </span>
+          <span class="mes">- Mes </span>
+          <span class="span">1</span>
+        </p>
+        <p class="semana-1-mes-1">
+          <span class="mes">inicia:</span>
+          <span class="span"> {{ participante.fecha_inicio }}  </span>
+          <span class="semana">- Finaliza: </span>
+          <span class="span">{{ participante.fecha_fin }} </span>
+        </p>
+        {% endblock %}
+      </div>
+    </div>
+  </body>
+</html>
+

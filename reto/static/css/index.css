@@ -1,0 +1,452 @@
+.logo-reto-1-icon,
+.oscuro-marron-1-icon {
+  position: absolute;
+  top: -13px;
+  left: -22px;
+  width: 3000px;
+  height: 1900px;
+  object-fit: cover;
+}
+.logo-reto-1-icon {
+  top: 20px;
+  left: 29px;
+  width: 348px;
+  height: 230px;
+}
+.barquisimeto,
+.maria-prez {
+  position: absolute;
+  top: 44px;
+  left: 1016px;
+  font-weight: 900;
+}
+.maria-prez {
+  top: 313px;
+  left: 141px;
+}
+.puntos {
+  color: var(--color-white);
+}
+.cat-8-container {
+  position: absolute;
+  top: 346px;
+  left: 141px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez1 {
+  position: absolute;
+  top: 383px;
+  left: 141px;
+  font-weight: 900;
+}
+.cat-10-container {
+  position: absolute;
+  top: 416px;
+  left: 141px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez2 {
+  position: absolute;
+  top: 453px;
+  left: 141px;
+  font-weight: 900;
+}
+.cat-14-container {
+  position: absolute;
+  top: 486px;
+  left: 141px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez3 {
+  position: absolute;
+  top: 523px;
+  left: 141px;
+  font-weight: 900;
+}
+.cat-8-container1 {
+  position: absolute;
+  top: 556px;
+  left: 141px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez4 {
+  position: absolute;
+  top: 603px;
+  left: 141px;
+  font-weight: 900;
+}
+.cat-8-container2 {
+  position: absolute;
+  top: 636px;
+  left: 141px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.mario-prez {
+  position: absolute;
+  top: 313px;
+  left: 429px;
+  font-weight: 900;
+}
+.cat-8-container3 {
+  position: absolute;
+  top: 346px;
+  left: 429px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.mario-prez1 {
+  position: absolute;
+  top: 383px;
+  left: 429px;
+  font-weight: 900;
+}
+.cat-10-container1 {
+  position: absolute;
+  top: 416px;
+  left: 429px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.mario-prez2 {
+  position: absolute;
+  top: 453px;
+  left: 429px;
+  font-weight: 900;
+}
+.cat-14-container1 {
+  position: absolute;
+  top: 486px;
+  left: 429px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.mario-prez3 {
+  position: absolute;
+  top: 523px;
+  left: 429px;
+  font-weight: 900;
+}
+.cat-17-container {
+  position: absolute;
+  top: 556px;
+  left: 429px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.mario-prez4 {
+  position: absolute;
+  top: 603px;
+  left: 429px;
+  font-weight: 900;
+}
+.cat-21-container {
+  position: absolute;
+  top: 636px;
+  left: 429px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez5 {
+  position: absolute;
+  top: 313px;
+  left: 731px;
+  font-weight: 900;
+}
+.cat-8-container4 {
+  position: absolute;
+  top: 346px;
+  left: 731px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez6 {
+  position: absolute;
+  top: 383px;
+  left: 731px;
+  font-weight: 900;
+}
+.cat-10-container2 {
+  position: absolute;
+  top: 416px;
+  left: 731px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez7 {
+  position: absolute;
+  top: 453px;
+  left: 731px;
+  font-weight: 900;
+}
+.cat-14-container2 {
+  position: absolute;
+  top: 486px;
+  left: 731px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez8 {
+  position: absolute;
+  top: 523px;
+  left: 731px;
+  font-weight: 900;
+}
+.cat-8-container5 {
+  position: absolute;
+  top: 556px;
+  left: 731px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez9 {
+  position: absolute;
+  top: 603px;
+  left: 731px;
+  font-weight: 900;
+}
+.cat-8-container6 {
+  position: absolute;
+  top: 636px;
+  left: 731px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez10 {
+  position: absolute;
+  top: 313px;
+  left: 1051px;
+  font-weight: 900;
+}
+.cat-8-container7 {
+  position: absolute;
+  top: 346px;
+  left: 1051px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez11 {
+  position: absolute;
+  top: 383px;
+  left: 1051px;
+  font-weight: 900;
+}
+.cat-10-container3 {
+  position: absolute;
+  top: 416px;
+  left: 1051px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez12 {
+  position: absolute;
+  top: 453px;
+  left: 1051px;
+  font-weight: 900;
+}
+.cat-14-container3 {
+  position: absolute;
+  top: 486px;
+  left: 1051px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez13 {
+  position: absolute;
+  top: 523px;
+  left: 1051px;
+  font-weight: 900;
+}
+.cat-8-container8 {
+  position: absolute;
+  top: 556px;
+  left: 1051px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.maria-prez14 {
+  position: absolute;
+  top: 603px;
+  left: 1051px;
+  font-weight: 900;
+}
+.cat-8-container9 {
+  position: absolute;
+  top: 636px;
+  left: 1051px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  width: 166px;
+  height: 37px;
+  color: var(--color-red);
+}
+.bsquetbol,
+.femenino {
+  position: absolute;
+  top: 665.89px;
+  left: 32px;
+  font-size: var(--font-size-29xl);
+  font-weight: 900;
+  transform: rotate(-89.43deg);
+  transform-origin: 0 0;
+}
+.femenino {
+  top: 645.19px;
+  left: 55.86px;
+  font-size: var(--font-size-35xl);
+  color: var(--color-dimgray);
+  display: inline-block;
+  width: 267.21px;
+  height: 90.48px;
+}
+.bsquetbol1 {
+  top: 665.89px;
+  left: 317px;
+  font-size: var(--font-size-29xl);
+}
+.bsquetbol1,
+.ftbol,
+.masculino {
+  position: absolute;
+  font-weight: 900;
+  transform: rotate(-89.43deg);
+  transform-origin: 0 0;
+}
+.masculino {
+  top: 645.19px;
+  left: 340.86px;
+  font-size: var(--font-size-35xl);
+  color: var(--color-dimgray);
+  display: inline-block;
+  width: 318.19px;
+  height: 98.98px;
+}
+.ftbol {
+  top: 665.89px;
+  left: 917px;
+  font-size: var(--font-size-29xl);
+}
+.masculino1 {
+  top: 645.19px;
+  left: 940.86px;
+  font-size: var(--font-size-35xl);
+  font-weight: 900;
+  color: var(--color-dimgray);
+  display: inline-block;
+  width: 318.19px;
+  height: 98.98px;
+}
+.femenino1,
+.ftbol1,
+.masculino1 {
+  position: absolute;
+  transform: rotate(-89.43deg);
+  transform-origin: 0 0;
+}
+.ftbol1 {
+  top: 665.89px;
+  left: 607px;
+  font-size: var(--font-size-29xl);
+  font-weight: 900;
+}
+.femenino1 {
+  top: 645.19px;
+  left: 630.86px;
+  font-size: var(--font-size-35xl);
+  color: var(--color-dimgray);
+  display: inline-block;
+  width: 318.19px;
+  height: 98.98px;
+}
+.femenino1,
+.semana {
+  font-weight: 900;
+}
+.mes,
+.span {
+  font-family: var(--font-inter);
+}
+.mes {
+  font-weight: 900;
+}
+.semana-1-mes-1 {
+  margin: 0;
+}
+.semana-1-container {
+  position: absolute;
+  top: 106px;
+  left: 503px;
+  font-size: 30px;
+}
+.tv-1 {
+  position: relative;
+  background-color: var(--color-black);
+  width: 100%;
+  height: 1220px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
